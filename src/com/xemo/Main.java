@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Thank you! You chose to get '" + userNumber + "' quotes form Kanye!");
         KanyeService kanyeService = new KanyeService(userNumber);
 
-        for(int i = 0; i < userNumber; i++){
+        for (int i = 0; i < userNumber; i++) {
             kanyeService.getKanyeQuote();
         }
 
